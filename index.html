@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolia - MICROSOFT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {s
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+    }
+
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+    .section-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 40px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 1000px;
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul, p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    #home {
+      background-image: url('https://thebrandhopper.com/wp-content/uploads/2022/04/2794d2c77d792a07d6a57f8f5df00ea0.jpg');
+    }
+
+    #education {
+      background-image: url('https://cdn.mos.cms.futurecdn.net/3Gusza5dd9HGPdQU6SSTDe.jpg');
+    }
+
+    #skills {
+      background-image: url('https://media.licdn.com/dms/image/v2/D4D22AQGiJ8-VdsTHxQ/feedshare-shrink_800/feedshare-shrink_800/0/1724442339950?e=2147483647&v=beta&t=BM_VY_bl_eOK-YpiobJKJ2Eec8rmHGixV5gxfrqL9ww');
+    }
+
+    #projects {
+      background-image:url('https://arcticit.com/wp-content/uploads/2023/06/Six-Microsoft-Cloud-Services-One-Trusted-Platform.jpg')
+    }
+
+    #experience {
+      background-image: url('https://www.influentialsoftware.com/wp-content/uploads/2021/06/microsoft-csp-benefits-for-customers-900x450.jpg');
+    }
+
+    #contact {
+      background-image: url('https://cloudminister.com/blog/wp-content/uploads/2024/05/Contact-Us-Today-For-Tally-On-Cloud-Services-1-1.webp');
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu a {
+        display: block;
+        margin: 10px 0;
+      }
+      .section-content {
+        width: 95%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">TechNova Solutions</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#education">About</a>
+      <a href="#skills">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Clients</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="section-content">
+      <h1>Welcome to Microsoft </h1>
+      <p>Innovating Tomorrow, Today</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-content">
+      <h2>About Us</h2>
+      <p>Microsoft is a multinational computer technology corporation.microsoft was founded on April 4,1975,by bill gates and paul allen in albuquerque,new mexico.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-content">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Operating systems</li>
+        <li>Productivity Applications</li>
+        <li>Cloud services</li>
+        <li>Al Services</li>
+        <li>Developer Tools</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Our Projects</h2>
+      <ul>
+        <li><strong>cloud based: </strong>project management service that provides features for planning,organizing,and managing projects.</li>
+        <li><strong>collaboration and communication: </strong>Teams can collaborate on projects througha web based interface,sharing insights,and tracking progress.</li>
+        <li><strong>Quality Assurance and QA Resource management: </strong> project online facitilies resources allocation,tracking,and management to ensure projects are completed efficiently.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-content">
+      <h2>Our Clients</h2>
+      <ul>
+        <li>XYZ Corporation</li>
+        <li>Large Enterprises</li>
+        <li>Government Institutions.</li>
+        <li>Internet service providers.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong>Phone:</strong> +91 7822941152</li>
+        <li><strong>Email:</strong> contact@microsoft.com</li>
+        <li><strong>Address:</strong> Pune, Maharashtra, India</li>
+      </ul>
+      <p>We’re always open to innovative ideas and collaboration. Let's build something amazing together.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MICROSOFT. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
